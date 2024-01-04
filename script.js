@@ -155,10 +155,10 @@ function counterwAnimation(){
 
 function loaderAnimation(){
     gsap.from(".line h1", {
-        y: 150,
-        duration: 0.7,
+        y: 200,
+        duration: 0.8,
         stagger: 0.2,
-        delay: 0.3
+        delay: 0.2
     })
     gsap.from(".line1-part1 h5, .now, .wait",{
         opacity: 0,
